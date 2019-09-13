@@ -332,43 +332,43 @@ namespace FargowiltasSouls
             "Sinister Icon"};
             string[] masoTogNameCh = { 
             //deathbringer fairy
-            "Slimy Shield Effects",
-            "Scythes When Dashing",
-            "Skeletron Arms Minion",
+            "粘液盾效果",
+            "冲刺时释放镰刀",
+            "骷髅王手臂召唤物",
             //pure heart
-            "Tiny Eaters",
-            "Creeper Shield",
+            "小吞噬者",
+            "爬行者护盾",
             //bionomic cluster
-            "Rainbow Slime Minion",
-            "Frostfireballs",
-            "Attacks Spawn Hearts",
-            "Squeaky Toy On Hit",
-            "Tentacles On Hit",
-            "Inflict Clipped Wings",
+            "彩虹史莱姆召唤物",
+            "霜火球",
+            "攻击生成心",
+            "吱吱作响的玩具效果",
+            "受击后释放触手",
+            "攻击造成剪除羽翼效果",
             //dubious circutry
-            "Inflict Lightning Rod",
-            "Probes Minion",
+            "攻击造成避雷针效果",
+            "探测器召唤物",
             //heart of the masochist
-            "Gravity Control",
-            "Pumpking's Cape Support",
-            "Flocko Minion",
-            "Saucer Minion",
-            "True Eyes Minion",
+            "重力控制",
+            "南瓜王的披肩效果",
+            "圣诞雪灵召唤物",
+            "飞碟召唤物",
+            "真·克苏鲁之眼召唤物",
             //chalice of the moon
-            "Celestial Rune Support",
-            "Plantera Minion",
-            "Lihzahrd Ground Pound",
-            "Ancient Visions On Hit",
-            "Cultist Minion",
-            "Spectral Fishron",
+            "天界符文效果",
+            "世纪之花召唤物",
+            "撞地火焰",
+            "受击召唤远古幻象",
+            "邪教徒召唤物",
+            "幽灵猪鲨",
             //lump of flesh
-            "Pungent Eye Minion",
+            "辛辣的眼球召唤物",
             //mutant armor
-            "Abominationn Minion",
-            "Phantasmal Ring Minion",
+            "憎恶召唤物",
+            "幻影之环召唤物",
             //other
-            "Spiky Balls On Hit",
-            "Sinister Icon"};
+            "受击时爆发尖刺球",
+            "邪恶画像"};
             string[] masoTogConfigName = {
             //deathbringer fairy
             "MasoSlimeConfig",

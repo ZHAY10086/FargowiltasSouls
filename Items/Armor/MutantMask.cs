@@ -23,6 +23,18 @@ Increases max number of minions and sentries by 10
 增加10最大召唤栏和哨兵栏
 减少25%法力消耗
 25%概率不消耗弹药");
+            text = CreateTranslation("MutantSetBonus");
+            text.SetDefault(@"Phantasmal Spheres shoot deathrays at nearby enemies
+Abominationn's Visage fights alongside you
+Your attacks inflict God Eater
+You can survive fatal damage and recover with 100% life every two minutes
+100% increased damage and 20% increased weapon use speed");
+            text.AddTranslation(GameCulture.Chinese, @"幻影球向附近敌人发射死亡射线
+憎恶之容与你同在
+攻击造成噬神者效果
+每两分钟能够满血复活一次
+增加100%伤害和20%武器使用速度");
+            AddTranslation(text);
         }
 
         public override void SetDefaults()
@@ -67,11 +79,8 @@ Increases max number of minions and sentries by 10
 
         public override void UpdateArmorSet(Player player)
         {
-            player.setBonus = @"Phantasmal Spheres shoot deathrays at nearby enemies
-Abominationn's Visage fights alongside you
-Your attacks inflict God Eater
-You can survive fatal damage and recover with 100% life every two minutes
-100% increased damage and 20% increased weapon use speed";
+            string MutantSetBonus = Language.GetTextValue("Mods.FargowiltasSouls.MutantSetBonus");
+            player.setBonus = MutantSetBonus;
 
             player.AddBuff(mod.BuffType("MutantPower"), 2);
 
