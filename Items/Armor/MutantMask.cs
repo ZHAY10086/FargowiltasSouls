@@ -34,7 +34,7 @@ You can survive fatal damage and recover with 100% life every two minutes
 攻击造成噬神者效果
 每两分钟能够满血复活一次
 增加100%伤害和20%武器使用速度");
-            AddTranslation(text);
+            mod.AddTranslation(text);
         }
 
         public override void SetDefaults()
