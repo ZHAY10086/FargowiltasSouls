@@ -23,7 +23,7 @@ Increases max number of minions and sentries by 10
 增加10最大召唤栏和哨兵栏
 减少25%法力消耗
 25%概率不消耗弹药");
-            ModTranslation text = CreateTranslation("MutantSetBonus");
+            ModTranslation text = mod.CreateTranslation("MutantSetBonus");
             text.SetDefault(@"Phantasmal Spheres shoot deathrays at nearby enemies
 Abominationn's Visage fights alongside you
 Your attacks inflict God Eater
